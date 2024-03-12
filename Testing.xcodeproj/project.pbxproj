@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CC881982B9BEB9C00DE68AA /* HeartGestureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC881972B9BEB9C00DE68AA /* HeartGestureModel.swift */; };
+		7CC8819A2B9BECF300DE68AA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC881992B9BECF300DE68AA /* Extensions.swift */; };
+		7CC8819B2B9BECF300DE68AA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC881992B9BECF300DE68AA /* Extensions.swift */; };
 		7CDD51052B9BD21900869B30 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 7CDD51042B9BD21900869B30 /* RealityKitContent */; };
 		7CDD51072B9BD21900869B30 /* TestingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDD51062B9BD21900869B30 /* TestingApp.swift */; };
 		7CDD51092B9BD21900869B30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDD51082B9BD21900869B30 /* ContentView.swift */; };
@@ -28,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7CC881972B9BEB9C00DE68AA /* HeartGestureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartGestureModel.swift; sourceTree = "<group>"; };
+		7CC881992B9BECF300DE68AA /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		7CDD50FF2B9BD21900869B30 /* Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CDD51032B9BD21900869B30 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		7CDD51062B9BD21900869B30 /* TestingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingApp.swift; sourceTree = "<group>"; };
@@ -82,6 +87,7 @@
 		7CDD51012B9BD21900869B30 /* Testing */ = {
 			isa = PBXGroup;
 			children = (
+				7CC881992B9BECF300DE68AA /* Extensions.swift */,
 				7CDD51062B9BD21900869B30 /* TestingApp.swift */,
 				7CDD51082B9BD21900869B30 /* ContentView.swift */,
 				7CDD510A2B9BD21900869B30 /* ImmersiveView.swift */,
@@ -89,6 +95,7 @@
 				7CDD510E2B9BD21B00869B30 /* Assets.xcassets */,
 				7CDD51132B9BD21B00869B30 /* Info.plist */,
 				7CDD51102B9BD21B00869B30 /* Preview Content */,
+				7CC881972B9BEB9C00DE68AA /* HeartGestureModel.swift */,
 			);
 			path = Testing;
 			sourceTree = "<group>";
@@ -221,8 +228,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC8819A2B9BECF300DE68AA /* Extensions.swift in Sources */,
 				7CDD51092B9BD21900869B30 /* ContentView.swift in Sources */,
 				7CDD51072B9BD21900869B30 /* TestingApp.swift in Sources */,
+				7CC881982B9BEB9C00DE68AA /* HeartGestureModel.swift in Sources */,
 				7CDD510B2B9BD21900869B30 /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CDD511D2B9BD21C00869B30 /* TestingTests.swift in Sources */,
+				7CC8819B2B9BECF300DE68AA /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +387,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -403,6 +414,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
